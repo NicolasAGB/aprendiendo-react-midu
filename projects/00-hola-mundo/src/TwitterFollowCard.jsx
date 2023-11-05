@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// eslint-disable-next-line react/prop-types
 export function TwiiterFollowCard({ children, formatuserName, userName, initialIsFollowing }) {
 
     const [isFollowing, setIsFollowing] = useState(initialIsFollowing);
